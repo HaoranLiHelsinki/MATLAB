@@ -216,13 +216,13 @@ for indx = 1:data.TotSamp
         
     end
     
-    offset2 = ftell(fid);
-    diff_offset =(offset2-offset1); % checking the actual sample size
+   % offset2 = ftell(fid);
+   % diff_offset =(offset2-offset1); % checking the actual sample size
     
-    if (data.SampBytes(indx)-diff_offset) ~= 0
-        disp('Something is wrong. The sample size is not right.');
-        fread(fid,data.SampBytes(indx)-diff_offset, 'char');
-    end
+   % if (data.SampBytes(indx)-diff_offset) ~= 0
+   %     disp('Something is wrong. The sample size is not right.');
+   %     fread(fid,data.SampBytes(indx)-diff_offset, 'char');
+   % end
     
 end
 fclose(fid);
