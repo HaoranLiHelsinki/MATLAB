@@ -12,6 +12,9 @@ Codes from IGMK and Dmitri Moisseev are partly adopted
 Currently for CompEna == 1 && DualPol == 1 
 
 !!! NOTE !!!
+
 Be careful when editing spectra reading, two scenarios
-% 1) block loop after all Hspec, Vspec. e.g., Hspec,  Vspec -> block loop
-% 2) block loop after each spec variable. e.g., Hspec -> block loop, Vspec -> lock loop 
+  
+  1) block loop after all Hspec, Vspec. e.g., Hspec,  Vspec -> block loop
+  
+  2) block loop after each spec variable. e.g., Hspec -> block loop, Vspec -> lock loop 
