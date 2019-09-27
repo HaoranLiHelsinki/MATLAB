@@ -17,4 +17,4 @@ Currently for CompEna == 1 && DualPol == 1
   (1) block loop after all Hspec, Vspec.  e.g., Hspec,  Vspec -> block loop  
   (2) block loop after each spec variable.  e.g., Hspec -> block loop, Vspec -> lock loop 
   
-2. Spectrum data are linear before 2019021203, after which dB is stored.
+2. Spectrum data are linear before 2019021203, after which dB is used.
