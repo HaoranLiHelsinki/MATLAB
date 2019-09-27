@@ -1,11 +1,7 @@
-% clc
-% clear
-
-% fname = '/home/lihaoran/data/W/spectra/2018/M02/D02/180202_060000_P01_ZEN.LV0';
-% [header, offset] = reading_Wband_header(fname)
 
 function [data] = reading_Wband_spectra(fname, header, offset)
 
+% Current for CompEna == 1 && DualPol == 1 
 
 BaseTime = datenum(2001,1,1, 0,0,0);
 fid = fopen(fname, 'r');
