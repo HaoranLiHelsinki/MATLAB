@@ -1,8 +1,15 @@
 
 function [data] = reading_Wband_spectra(fname, header, offset)
+% Version 3.5 for Hyytiala RPG W-band radar. Last access: 27th Sep. 2019
+
+% Contributor: haoran.li@helsinki.fi
+% Codes from IGMK and Dmitri Moisseev are partly adopted
 
 % Currently for CompEna == 1 && DualPol == 1 
-% Be careful when editing spectra reading
+% Be careful when editing spectra reading, two scenarios
+% 1) block loop after all Hspec, Vspec. e.g., Hspec,  Vspec -> block loop
+% 2) block loop after each spec variable. e.g., Hspec -> block loop, Vspec -> lock loop 
+
 
 BaseTime = datenum(2001,1,1, 0,0,0);
 fid = fopen(fname, 'r');
