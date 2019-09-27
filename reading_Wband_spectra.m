@@ -1,7 +1,8 @@
 
 function [data] = reading_Wband_spectra(fname, header, offset)
 
-% Current for CompEna == 1 && DualPol == 1 
+% Currently for CompEna == 1 && DualPol == 1 
+% Be careful when editing spectra reading
 
 BaseTime = datenum(2001,1,1, 0,0,0);
 fid = fopen(fname, 'r');
