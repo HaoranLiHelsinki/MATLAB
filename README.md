@@ -25,6 +25,8 @@ UPDATES:
 
 20191005: Saving raw spectra data to netcdf is feasible.
 
+          For LDR mode but not Simultaneous Transmission Simultaneous Reception (STSR) mode
+
           Functions: write_W_data_2_nc_LV0.m, netcdf2struct.m;
           
           Example: run a_read_spectra_write_nc.m (call all functions)
