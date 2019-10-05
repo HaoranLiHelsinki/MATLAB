@@ -3,7 +3,7 @@
 MATLAB functions for reading Hyytiala W-band radar spectra data.
 Contact: haoran.li@helsinki.fi
 
-Version 3.5 for Hyytiala RPG W-band radar. Last access: 27th Sep. 2019
+Version 3.5 for Hyytiala RPG W-band radar. 
 
 Contributor: haoran.li@helsinki.fi
 
