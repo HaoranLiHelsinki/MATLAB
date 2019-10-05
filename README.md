@@ -24,6 +24,8 @@ Currently for CompEna == 1 && DualPol == 1
 UPDATES:
 
 20191005: Saving raw spectra data to netcdf is feasible.
+
           Functions: write_W_data_2_nc_LV0.m, netcdf2struct.m;
-          example: run a_read_spectra_2_nc
+          
+          Example: run a_read_spectra_2_nc
           
