@@ -21,7 +21,7 @@ for indx_LV0 = 1  : length(list_LV0)
     config.contactperson = 'Haoran Li (U. Helsinki); haoran.li@helsinki.fi';
     config.processing_script = 'LDR mode for HYYTIALA W-band radar - 20191005 - v0';
     fprintf('\n %s', '    Saving .nc ')
-    header.MSL = 181;
+    header.MSL = 181;  % height above the mean sea level
 %     try
     write_W_data_2_nc_LV0(data , header ,outfile, config);
 
