@@ -27,5 +27,5 @@ UPDATES:
 
           Functions: write_W_data_2_nc_LV0.m, netcdf2struct.m;
           
-          Example: run a_read_spectra_2_nc.m
+          Example: run a_read_spectra_write_nc.m (call all functions)
           
