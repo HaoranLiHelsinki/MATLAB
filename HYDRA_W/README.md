@@ -33,7 +33,7 @@ UPDATES:
           
 20191007: Retrieving LV0 data from netcdf is feasible.
 
-          For Number of chirps == 3 only
+          For number of chirps == 3 only
           
           Velocity folding and alias are corrected (see two subfunctions)
           
