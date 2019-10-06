@@ -3,8 +3,6 @@ function write_W_LV0_2_nc(data , header ,outfile, config)
 
 % netcdf.close(ncid);
 
-% this function writes joyrad94 data into netcdf4
-
 %% ################## Create a netCDF file.
 
 ncid = netcdf.create(outfile,'NETCDF4'); 
