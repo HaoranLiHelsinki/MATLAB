@@ -1,6 +1,6 @@
 function [hours] = plot_polarimetric( Radar )
 
-
+% Plot Ze, LDR, Velocity in a figure
 
 figure(1)
 set(gcf,'pos',[0 0 1400 700])
