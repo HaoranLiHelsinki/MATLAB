@@ -23,7 +23,8 @@ Currently for CompEna == 1 && DualPol == 1
 
 UPDATES:
 
-20191006: Saving raw data to netcdf is feasible.
+20191006: 
+1) Saving raw data to netcdf is feasible.
 
           For LDR mode but not Simultaneous Transmission Simultaneous Reception (STSR) mode
 
@@ -31,10 +32,12 @@ UPDATES:
           
           LV1: level 1 product; e.g., Ze, V, LDR ...
           
-20191007: 1) Retrieving LV0 data from netcdf is feasible.
+20191007: 
+1) Retrieving LV0 data from netcdf is feasible.
 
           For number of chirps == 3 only
           
           Velocity folding and alias are corrected (see two subfunctions)
           
-          2) LV1: A ploting function is added (Ze+LDR+v in one figure)
+         
+2) LV1: A ploting function is added (Ze+LDR+v in one figure)
