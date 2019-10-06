@@ -13,17 +13,17 @@ Currently for CompEna == 1 && DualPol == 1
 
 !!! NOTE !!!
 
-1. Be careful when editing spectra reading. 2 scenarios  
+1. Be careful when reading spectra (LV0 data). 2 scenarios  
   (1) block loop after all Hspec, Vspec.  e.g., Hspec,  Vspec -> block loop  
   (2) block loop after each spec variable.  e.g., Hspec -> block loop, Vspec -> lock loop 
   
-2. The number of FFT may change.  
+2. The number of FFT may change (LV0 data).  
 
 
 
 UPDATES:
 
-20191005: Saving raw data to netcdf is feasible.
+20191006: Saving raw data to netcdf is feasible.
 
           For LDR mode but not Simultaneous Transmission Simultaneous Reception (STSR) mode
 
