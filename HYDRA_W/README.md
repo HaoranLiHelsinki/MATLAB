@@ -31,3 +31,9 @@ UPDATES:
           
           LV1: level 1 product; e.g., Ze, V, LDR ...
           
+20191007: Retrieving LV0 data from netcdf is feasible.
+
+          For Number of chiprs == 3 only
+          
+          Velocity folding and alias are corrected (see two subfunctions)
+          
