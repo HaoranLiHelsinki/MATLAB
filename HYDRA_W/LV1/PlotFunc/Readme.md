@@ -1,0 +1,1 @@
+Some practically useful functions
