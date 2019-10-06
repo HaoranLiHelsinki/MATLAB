@@ -23,11 +23,11 @@ Currently for CompEna == 1 && DualPol == 1
 
 UPDATES:
 
-20191005: Saving raw spectra data to netcdf is feasible.
+20191005: Saving raw data to netcdf is feasible.
 
           For LDR mode but not Simultaneous Transmission Simultaneous Reception (STSR) mode
 
-          Functions: write_W_data_2_nc_LV0.m, netcdf2struct.m;
+          LV0: level 0 product; mostly for spectra analysis
           
-          Example: run a_read_spectra_write_nc.m (call all functions)
+          LV1: level 1 product; e.g., Ze, V, LDR ...
           
