@@ -31,9 +31,10 @@ UPDATES:
           
           LV1: level 1 product; e.g., Ze, V, LDR ...
           
-20191007: Retrieving LV0 data from netcdf is feasible.
+20191007: 1) Retrieving LV0 data from netcdf is feasible.
 
           For number of chirps == 3 only
           
           Velocity folding and alias are corrected (see two subfunctions)
           
+          2) LV1: A ploting function is added (Ze+LDR+v in one figure)
