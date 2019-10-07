@@ -43,7 +43,7 @@ xlabel('Velocity [m/s]')
 colormap(jet(15))
 cb = colorbar;
 ylabel(cb , 'Spectral Ze [dB]')
-title( datestr(data_correct.time()) )
+title( datestr(data_correct.time ,'yyyymmdd-HHMMSS' ) )
 
 set(gca,'FontSize' , 13)
 
@@ -78,7 +78,7 @@ xlabel('Velocity [m/s]')
 colormap(jet(15))
 cb = colorbar;
 ylabel(cb , 'Spectral LDR [dB]')
-title( datestr(data_correct.time) )
+title( datestr(data_correct.time ,'yyyymmdd-HHMMSS' ) )
 
 set(gca,'FontSize' , 13)
 
