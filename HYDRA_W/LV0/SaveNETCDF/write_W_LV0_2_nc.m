@@ -77,7 +77,7 @@ netcdf.putAtt(ncid,id_range_offsets,'comment',...
 
 %%%%%%%% time dependend variables
 
-id_time = netcdf.defVar(ncid,'time','nc_float',did_time);
+id_time = netcdf.defVar(ncid,'time','nc_double',did_time);
 netcdf.putAtt(ncid,id_time,'long_name','Time in MATLAB format');
 netcdf.putAtt(ncid,id_time,'units','use datestr function');
 netcdf.putAtt(ncid,id_time,'comment','Use datestr in MATLAB');
