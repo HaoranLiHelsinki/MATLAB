@@ -24,7 +24,7 @@ Currently for CompEna == 1 && DualPol == 1
 UPDATES:
 
 20191005: 
-1) Saving raw data to netcdf is feasible.
+1) Save raw data to netcdf
 
           For LDR mode but not Simultaneous Transmission Simultaneous Reception (STSR) mode
 
@@ -33,7 +33,7 @@ UPDATES:
           LV1: level 1 product; e.g., Ze, V, LDR ...
           
 20191006: 
-1) Retrieving LV0 data from netcdf is feasible.
+1) Retrieve LV0 data from netcdf
 
           For number of chirps == 3 only
           
@@ -43,6 +43,6 @@ UPDATES:
 2) LV1: A ploting function is added (Ze+LDR+v in one figure)
 
 20191007: 
-1) Ploting spectral Ze and LDR from LV0 .nc file is feasible.
+1) Plot spectral Ze and LDR from LV0 .nc file
 
 
