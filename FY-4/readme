@@ -1,1 +1,9 @@
 
+This is an example of reading FY-4 fulldisk netcdf data. 
+
+Geocoordinates are created by reading a '.raw' file (~70 Mb).
+This file can be dowloaded from CMA website.
+
+Cloud top height is plotted.
+
+Contact: Haoran Li;  haoran.li@helsinki.fi
